@@ -9,7 +9,7 @@ Node* next = NULL;
     
     Node(int data){
         this->next = NULL;
-        this->data= data;
+            this->data= data;
     }
 };
 
@@ -87,26 +87,23 @@ int main(){
 
 
     
-    inserthead(head,tail,50);
+    inserthead(head,tail,50);    
     inserthead(head,tail,40);
     inserthead(head,tail,30);
     inserthead(head,tail,20);
     inserthead(head,tail,10);
-    print(head);
+    // print(head);
 
     insertAtTail(head,tail,100);
-    print(head);
-
-   
+    // print(head);
 
     Insertatpos(head,tail,100,2);
-       print(head);
-
-
-        Insertatpos(head,tail,200,0);
-       print(head);
-
+    // print(head);
+    Insertatpos(head,tail,200,0);
+    // print(head);
     Insertatpos(head,tail,300,3);
-       print(head);
+    print(head);
+
+    return 0 ;
     
 }
