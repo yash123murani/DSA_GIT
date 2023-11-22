@@ -13,11 +13,10 @@ void quick(int arr[], int start, int end) {
         if (arr[j] < arr[pivot]) {
             ++i;
             swap(arr[i], arr[j]);
-            //  ++j;
         }
-        else{
+       
         ++j;
-        }
+        
     }
 
     ++i;
