@@ -16,7 +16,6 @@ void quick(int arr[], int start, int end) {
         }
        
         ++j;
-        
     }
 
     ++i;

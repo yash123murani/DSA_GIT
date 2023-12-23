@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 class node{
     public:
     int data;
@@ -13,8 +12,6 @@ class node{
         this->left = NULL;
         this->right = NULL;
     }
-
-
 };
 
 node* createTree(){
@@ -33,7 +30,6 @@ node* createTree(){
 
     std::cout << "Enter value of right of: " << root->data<< std::endl;
     root->right = createTree();
-
     return root;
 }
 

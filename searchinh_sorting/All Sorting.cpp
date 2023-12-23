@@ -115,14 +115,14 @@ void mergesort(int arr[], int start,int end){
 
 int main() {
 
-  // cout<<"Hello world";
-  // int arr[5] = {5,4,3,2,1};
-  // selectionsort(arr,0,5);
+  cout<<"Hello world";
+  int arr[5] = {5,4,3,2,1};
+  selectionsort(arr,0,5);
 
 
-  // for(int i =0; i<=5; i++){
-  //   cout<<arr[i]<<endl;
-  // }
+  for(int i =0; i<=5; i++){
+    cout<<arr[i]<<endl;
+  }
 
 
 
@@ -139,12 +139,12 @@ int main() {
 //     cout<<arr[i]<<endl;
 //   }
 
-  int arr[5] = {5,4,3,2,1};
+//   int arr[5] = {5,4,3,2,1};
 
-  mergesort(arr,0,4);
-for(int i =0; i<5; i++){
-    cout<<arr[i]<<endl;
-  }
+//   mergesort(arr,0,4);
+// for(int i =0; i<5; i++){
+//     cout<<arr[i]<<endl;
+//   }
 
     return 0;
 }
